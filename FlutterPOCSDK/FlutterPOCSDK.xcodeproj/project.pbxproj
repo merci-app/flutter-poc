@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF265EFA2AC34F8A00AB2DBD /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = FF265EF82AC34F8A00AB2DBD /* GeneratedPluginRegistrant.h */; };
+		FF265EFB2AC34F8A00AB2DBD /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = FF265EF92AC34F8A00AB2DBD /* GeneratedPluginRegistrant.m */; };
 		FF8EC8F42AC3482900442DF7 /* FlutterPOCSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC8F32AC3482900442DF7 /* FlutterPOCSDK.docc */; };
 		FF8EC8F52AC3482900442DF7 /* FlutterPOCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8EC8F22AC3482900442DF7 /* FlutterPOCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8EC8FE2AC3485200442DF7 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF8EC8FC2AC3485200442DF7 /* Flutter.xcframework */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF265EF82AC34F8A00AB2DBD /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		FF265EF92AC34F8A00AB2DBD /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		FF8EC8EF2AC3482900442DF7 /* FlutterPOCSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlutterPOCSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8EC8F22AC3482900442DF7 /* FlutterPOCSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlutterPOCSDK.h; sourceTree = "<group>"; };
 		FF8EC8F32AC3482900442DF7 /* FlutterPOCSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FlutterPOCSDK.docc; sourceTree = "<group>"; };
@@ -36,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF265EF72AC34F6800AB2DBD /* PluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				FF265EF82AC34F8A00AB2DBD /* GeneratedPluginRegistrant.h */,
+				FF265EF92AC34F8A00AB2DBD /* GeneratedPluginRegistrant.m */,
+			);
+			path = PluginRegistrant;
+			sourceTree = "<group>";
+		};
 		FF8EC8E52AC3482900442DF7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		FF8EC8F12AC3482900442DF7 /* FlutterPOCSDK */ = {
 			isa = PBXGroup;
 			children = (
+				FF265EF72AC34F6800AB2DBD /* PluginRegistrant */,
 				FF8EC8F22AC3482900442DF7 /* FlutterPOCSDK.h */,
 				FF8EC8F32AC3482900442DF7 /* FlutterPOCSDK.docc */,
 				FF8EC9032AC349AA00442DF7 /* DockFlutter.swift */,
@@ -79,6 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF265EFA2AC34F8A00AB2DBD /* GeneratedPluginRegistrant.h in Headers */,
 				FF8EC8F52AC3482900442DF7 /* FlutterPOCSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +130,7 @@
 				TargetAttributes = {
 					FF8EC8EE2AC3482900442DF7 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -153,6 +169,7 @@
 			files = (
 				FF8EC8F42AC3482900442DF7 /* FlutterPOCSDK.docc in Sources */,
 				FF8EC9042AC349AA00442DF7 /* DockFlutter.swift in Sources */,
+				FF265EFB2AC34F8A00AB2DBD /* GeneratedPluginRegistrant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +299,7 @@
 		FF8EC8F92AC3482900442DF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -305,6 +323,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +332,7 @@
 		FF8EC8FA2AC3482900442DF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
