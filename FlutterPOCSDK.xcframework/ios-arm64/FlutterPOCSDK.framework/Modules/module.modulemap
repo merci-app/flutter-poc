@@ -1,0 +1,11 @@
+framework module FlutterPOCSDK {
+  umbrella header "FlutterPOCSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FlutterPOCSDK.Swift {
+  header "FlutterPOCSDK-Swift.h"
+  requires objc
+}

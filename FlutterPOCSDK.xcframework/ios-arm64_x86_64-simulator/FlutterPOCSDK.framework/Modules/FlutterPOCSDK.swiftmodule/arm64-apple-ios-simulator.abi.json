@@ -1,0 +1,154 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FlutterPOCSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "FlutterPOCSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DockFlutter",
+        "printedName": "DockFlutter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DockFlutter",
+                "printedName": "FlutterPOCSDK.DockFlutter",
+                "usr": "s:13FlutterPOCSDK04DockA0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13FlutterPOCSDK04DockA0C6sharedACvpZ",
+            "mangledName": "$s13FlutterPOCSDK04DockA0C6sharedACvpZ",
+            "moduleName": "FlutterPOCSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DockFlutter",
+                    "printedName": "FlutterPOCSDK.DockFlutter",
+                    "usr": "s:13FlutterPOCSDK04DockA0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13FlutterPOCSDK04DockA0C6sharedACvgZ",
+                "mangledName": "$s13FlutterPOCSDK04DockA0C6sharedACvgZ",
+                "moduleName": "FlutterPOCSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlutterPOCSDK04DockA0C5setupyyF",
+            "mangledName": "$s13FlutterPOCSDK04DockA0C5setupyyF",
+            "moduleName": "FlutterPOCSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(host:param:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13FlutterPOCSDK04DockA0C5start4host5paramySo16UIViewControllerC_SStF",
+            "mangledName": "$s13FlutterPOCSDK04DockA0C5start4host5paramySo16UIViewControllerC_SStF",
+            "moduleName": "FlutterPOCSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13FlutterPOCSDK04DockA0C",
+        "mangledName": "$s13FlutterPOCSDK04DockA0C",
+        "moduleName": "FlutterPOCSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/flutter-poc-podspec\/FlutterPOCSDK\/FlutterPOCSDK\/DockFlutter.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 13,
+      "value": "\"DockFlutter\""
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name FlutterPOCSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Flutter
+@_exported import FlutterPOCSDK
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class DockFlutter {
+  public static let shared: FlutterPOCSDK.DockFlutter
+  public func setup()
+  public func start(host: UIKit.UIViewController, param: Swift.String)
+  @objc deinit
+}
