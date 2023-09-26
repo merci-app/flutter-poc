@@ -149,6 +149,27 @@
       "offset": 260,
       "length": 13,
       "value": "\"DockFlutter\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/flutter-poc-podspec\/FlutterPOCSDK\/FlutterPOCSDK\/DockFlutter.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 17,
+      "value": "\"flutter.poc.sdk\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/flutter-poc-podspec\/FlutterPOCSDK\/FlutterPOCSDK\/DockFlutter.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 11,
+      "value": "\"getParams\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/flutter-poc-podspec\/FlutterPOCSDK\/FlutterPOCSDK\/DockFlutter.swift",
+      "kind": "StringLiteral",
+      "offset": 1028,
+      "length": 40,
+      "value": "\"Param sent by iOS client: hello world.\""
     }
   ]
 }
